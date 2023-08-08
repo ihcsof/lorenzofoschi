@@ -1,0 +1,98 @@
+html, body {
+	height: 100%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	background: #FFFFCC;
+	color: #000;
+}
+
+a:hover {
+	color: #fb2355;
+}
+
+p, li {
+	font-weight: 300;
+}
+
+h5 {
+	font-weight: 700;
+}
+
+.navbar button:hover {
+	color: #fb2355;
+}
+
+
+a {
+	color: #000;
+}
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #000;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fb2355;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.progress {
+	height:  1.5rem;
+}
+
+.progress-bar {
+	color: #000;
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+
+.progress-bar-one {
+	background-color: #fb2355;
+}
+
+.progress-bar-two {
+	background-color: #8cc3cc;
+}
+
+.progress-bar-three {
+	background-color: #ecc10e;
+}
+
+.progress-bar-four {
+	background-color: #6ba5ca;
+}
+
+.progress-bar-five {
+	background-color: #6584a6;
+}
+
+#sticker .btn-secondary {
+    color: #fff;
+    background-color: #fb2355;
+    border-color: #fb2355;
+}
